@@ -1,0 +1,1 @@
+export const kkk:number = 6

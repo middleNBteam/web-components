@@ -1,0 +1,11 @@
+{
+  "name": "webcomponents",
+  "version": "0.0.1",
+  "descriptions": "",
+  "scripts": {
+    "build": "tsc -p ./worker/tsconfig.json && tsc",
+    "test": "echo \"Error: noe test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

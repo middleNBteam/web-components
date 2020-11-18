@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "lib": [
+      "WebWorker",
+      "ES2019"
+    ],
+    "downlevelIteration": true
+  },
+  "include": ["./*"]
+}
