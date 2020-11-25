@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "descriptions": "",
   "scripts": {
-    "build": "tsc -p ./worker/tsconfig.json && tsc",
-    "test": "echo \"Error: noe test specified\" && exit 1"
+    "prebuild": "tsc -p ./worker/tsconfig.json && tsc",
+    "predev": "tsc -p ./worker/tsconfig.json && tsc",
+    "test": "echo \"Error: noe test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC"
